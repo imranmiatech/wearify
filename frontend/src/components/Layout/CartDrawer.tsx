@@ -9,7 +9,7 @@ interface CartDrawerProps {
 const CartDrawer: React.FC<CartDrawerProps> = ({drawerOpen, toggleCartDrawer}: any) => {
   
   return (
-    <div className={`fixed top-0 right-0 w-3/4 sm:w-1/3 md:w-1/3 lg:w-1/4 h-full
+    <div className={`fixed top-0 right-0 w-3/4 sm:w-1/3 md:w-[30rem] lg:w-1/4 h-full
      bg-white shadow-lg transform transition-transform
       duration-300 flex flex-col z-50 ${drawerOpen ? "translate-x-0" :
        "translate-x-full"}`}>
